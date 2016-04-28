@@ -1,0 +1,21 @@
+﻿ 
+    <div ng-controller="heroesController">
+        <h1>DOTA Heroes</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Type</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="hero in Heroes">
+                    <td>{{hero.ID}}</td>
+                    <td>{{hero.Name}}</td>
+                    <td>{{hero.Type}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+ 
